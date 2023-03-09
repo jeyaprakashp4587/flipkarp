@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="services.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <img src="img12.jpg">
+    <header>
+        <h3>Flipkarp</h3>
+        <nav>
+            <ul id="sidemenu">
+                <li> <a href="index.html">Home</a></li>
+                <li><a href="Product.html"> Product</a></li>
+                <li><a href="Services.html"> Services</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <i id="close" class="fa fa-times" onclick="closemenu()"></i>
+            </ul>
+        </nav>
+        <i id="menu" class="fa fa-bars"  onclick="openmenu()"></i>
+    </header>
+    <div class="body">
+        <div class="inner">
+            <h2>Our Features and Services.</h3>
+            <div class="cards">
+                <div class="card">
+                <h3>Services</h3>
+                <p>Lorem ipsum dolor sit amet consectetur  </p>
+                 <button>More</button>
+                </div>
+                <div class="card">
+                    <h3>Services</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                     <button>More</button>
+                </div>
+                <div class="card">
+                    <h3>Services</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                     <button>More</button>
+                </div>
+            </div>
+
+        </div>
+      
+    </div>
+    <script>
+        var sid = document.getElementById("sidemenu");
+     
+     function openmenu(){
+         sid.style.right = "0";
+     }
+     function closemenu(){
+         sid.style.right = "-300px";
+     }
+      </script>
+      <script>
+         var sid = document.getElementById("sidemenu");
+     
+     function openmenu(){
+         sid.style.right = "0";
+     }
+     function closemenu(){
+         sid.style.right = "-400px";
+     }
+      </script>
+</body>
+</html>
